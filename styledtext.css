@@ -1,0 +1,31 @@
+/**********************************************************************/
+/*                      Estilo para styledtext.html                   */
+/*                      Autor: Sergio Gamez Ortega                    */          
+/*                      version. 1.0                                  */
+/*                      practicando CSS con archivo externo           */
+/**********************************************************************/
+
+body {
+    background-color: black;
+}
+p {
+    color: white;
+}
+h1 {
+    color: lightblue;
+}
+h2 {
+    color: salmon;
+}
+/* Selector de id, unico */
+#encabezadop1 {
+    color: lightyellow;
+}
+/* Selector de class, colectivo */
+.centrado {
+    text-align: center;
+}
+/* Selector contextual, añade contexto, mas de un selector separados con espacios */
+.centrado b {
+    color: red;
+}
